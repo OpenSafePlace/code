@@ -1,0 +1,18 @@
+diff --git a/product.json b/product.json
+index 212ad63ab68..e63febd8973 100644
+--- a/product.json
++++ b/product.json
+@@ -75,5 +75,13 @@
+ 				"publisherDisplayName": "Microsoft"
+ 			}
+ 		}
++	],
++	"extensionsGallery": {
++		"serviceUrl": "https://open-vsx.org/vscode/gallery",
++		"itemUrl": "https://open-vsx.org/vscode/item",
++		"resourceUrlTemplate": "https://open-vsx.org/vscode/asset/{publisher}/{name}/{version}/Microsoft.VisualStudio.Code.WebResources/{path}"
++	},
++	"linkProtectionTrustedDomains": [
++		"https://open-vsx.org"
+ 	]
+ }
